@@ -1,0 +1,74 @@
+body{
+	background-color: #ccc;
+}
+#logout_link{
+	position: sticky;
+	top: 0;
+	left: 1450px;
+	text-decoration: none;
+	color: black;
+	background-color: #69a;
+	padding: 5px;
+	border-style: solid;
+}
+#logout_link:hover{
+	color: #666;
+}
+.all_pictures {
+	width: 50px;
+	height: 50px;
+	border-style: solid;
+}
+.all_massages {
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width:3px;
+	padding: 10px;
+}
+h2 {
+	font-size: 40px;
+	font-family: "Arial";
+	text-align: center;
+}
+.all_names{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Arial";
+}
+#header, #message, #send_to{
+	background-color: #ccc;
+	border-style:solid;
+	border-color: black;
+}
+#message{
+	width: 200px;
+	height: 200px;
+}
+#send{
+	font-family: "Times New Roman";
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	background-color: #69a;
+	padding: 7px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+#send:hover{
+	color: #666;
+	background-color: #8bd;
+	border-color: #666;
+}
+#profile{
+	padding-top: 5px;
+	position: sticky;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.all_buttons_delete, .all_buttons_read{
+	background-color: #69a;
+	color: black;
+	border-color: black;
+}
